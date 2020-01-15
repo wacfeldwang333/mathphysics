@@ -5472,17 +5472,17 @@ My solution to the last part of this exercise \textbf{ conflicts } with what's s
 \end{aligned} \\
   \begin{aligned}
     \int (a^2 - x^2)^{1/2} & = a \int \sqrt{ 1 - \left( \frac{x}{a} \right)^2 } dx = a^2 \int \cos^2{\theta} d\theta = \\
-& = a^2 \int \frac{ 1 + \cos{2\theta}}{ 2 } = a^2 \left( \frac{ \theta}{2} + \frac{ \sin{2\theta}}{4} \right) = a^2 \left( \arcsin{ \frac{x}{a} } + \frac{1}{2} \frac{x}{a} \sqrt{ 1 - \left( \frac{x}{a} \right)^2 } \right) 
+& = a^2 \int \frac{ 1 + \cos{2\theta}}{ 2 } = a^2 \left( \frac{ \theta}{2} + \frac{ \sin{2\theta}}{4} \right) = a^2 \left( \frac{1}{2}\arcsin{ \frac{x}{a} } + \frac{1}{2} \frac{x}{a} \sqrt{ 1 - \left( \frac{x}{a} \right)^2 } \right) 
 \end{aligned} \quad \quad 
   \begin{aligned}
     \sin{\theta} & = \frac{x}{a} \\
     \cos{\theta} d\theta & = \frac{dx}{a} 
 \end{aligned} \\
   \begin{aligned}
-    \int_0^a \sqrt{ a^2 - x^2 } & = a^2 \left( \frac{ \pi}{2} - 0 \right) = \frac{ \pi a^2}{2} \\
-    \int_0^a (a^2 - x^2 )^{3/2} dx & = \frac{3a^2}{4} \left( \frac{ \pi a^2}{2} \right) = \frac{ 3 \pi a^4}{8} \\
+    \int_0^a \sqrt{ a^2 - x^2 } & = a^2 \left( \frac{ \pi}{4} - 0 \right) = \frac{ \pi a^2}{4} \\
+    \int_0^a (a^2 - x^2 )^{3/2} dx & = \frac{3a^2}{4} \left( \frac{ \pi a^2}{4} \right) = \frac{ 3 \pi a^4}{16} \\
  \end{aligned} \\
-\boxed{   \int_0^a (a^2 - x^2)^{5/2} dx  = \frac{ 5a^2}{6} \left( \frac{3\pi a^4}{8} \right) = \boxed{ \frac{5}{16} \pi a^6 } }
+\boxed{   \int_0^a (a^2 - x^2)^{5/2} dx  = \frac{ 5a^2}{6} \left( \frac{3\pi a^4}{16} \right) = \boxed{ \frac{5}{32} \pi a^6 } }
 \end{gathered}
 \]
 \end{enumerate}
